@@ -1,0 +1,8 @@
+    @model List<CatProducto>
+    <select class="form-select cmbProductos" aria-label="Default select example" >
+        <option selected>Seleccione un producto...</option>
+    @foreach(CatProducto producto in Model)
+    {
+        <option value="@producto.Id" data-precio="@producto.PrecioUnitario" data-imagen="@producto.ImagenProducto">@producto.NombreProducto</option>
+    }
+    </select>

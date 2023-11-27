@@ -1,0 +1,8 @@
+@model List<TblClientes>
+<select  class="form-select" aria-label="Default select example" id="idCliente">
+    <option selected>Seleccione un Cliente...</option>
+    @foreach (TblClientes cliente in Model)
+    {
+        <option value="@cliente.Id">@cliente.RazonSocial</option>
+    }
+</select>

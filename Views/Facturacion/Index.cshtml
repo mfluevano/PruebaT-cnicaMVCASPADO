@@ -1,0 +1,78 @@
+@{
+    ViewData["TItle"] = "Catalogo Productos";
+}
+@model PruebaTécnicaMVCASPADO.Models.TblFacturas
+
+<div class="alert alert-info" rol="alert">
+    Facturacion
+</div>
+<div class="container">
+<form >
+
+    <input type="hidden" asp-for="FechaEmisionFactura" value="@DateTime.Now" />
+
+    <div class="col-sm2">
+        <button type="button" class="btn btn-primary col-sm-2" id="btnNuevaFac">Nueva Factura </button>
+    </div>
+    <div id="productosSelector"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <label asp-for="IdCliente"></label>
+                <div id="cmbCliente">
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <label asp-for="NumeroFactura"></label>
+                <input asp-for="NumeroFactura" class="form-control">
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <button type="button" class="btn btn btn-secondary col-sm-2" id="btnAgregaPartida">Agregar </button>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <table class="table table-bordered"  id="tblFacturaObj">
+            <thead>
+                <tr class="hidden"> 
+                    <th scope="col" style="width:20%;">Producto</th>
+                    <th scope="col" style="width:20%;">Precio</th>
+                    <th scope="col" style="width:20%;">Cantidad</th>
+                    <th scope="col" style="width:20%;">Imagen</th>
+                    <th scope="col" style="width:20%;">Totales</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3"></td>
+                    <td class="text-right table-dark">Subtotal</td>
+                    <td class="text-right subTotal"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td class="text-right table-dark">Impuestos</td>
+                    <td class="text-right impuestos"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td class="text-right table-dark">Total</td>
+                    <td class="text-right gTotal"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <button type="button" class="btn btn-success btn-lg" id="btnGuardarFactura">Guardar Factura</button>
+</form>
+</div>
+
+@section Scripts
+{
+    <script src="~/js/facturacion.js"></script>
+}

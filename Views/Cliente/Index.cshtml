@@ -1,0 +1,70 @@
+@{
+  ViewData["TItle"] = "Catalogo Clientes";
+}
+@model TblClientes
+
+<div class="row justify-content-center">
+  <div  class="col-10">
+    <div class="alert alert-info" rol="alert">
+      Clientes
+    </div>
+  
+    <button type="button" class="btn btn-success  btn-sm" data-toggle="modal" data-target="#modalCliente" id="btnNuevo">Nuevo
+      Cliente</button>
+    <table class="table table-bordered" id="tblCatProducto">
+      <thead>
+        <tr>
+          <th>RazonSocial</th>
+          <th>Tipo Cliente</th>
+          <th>FechaCreacion</th>
+          <th>RFC</th>
+          <th colspan="2">Acciones</th>
+        </tr>       
+      </thead>
+      <tbody>
+    </table>
+  </div>
+</div>
+
+<form enctype="multipart/form-data" method="post"  class="row g-3" >
+  <div class="modal fade" id="modalCliente" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nuevo Cliente</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label asp-for="RazonSocial" class="form-label"></label>
+            <input asp-for="RazonSocial" class="form-control" />
+          </div>
+          <div class="form-group ">
+            <label asp-for="TipoCliente" class="form-label"></label>
+            <select asp-for="IdTipoCliente" class="form-select form-select-sm mb-3 cmbTipoCLiente"  aria-label=".form-select-lg example">
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label asp-for="RFC" class="form-label"></label>
+            <input asp-for="RFC" class="form-control" />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="btnAgregar">Guardar</button>
+        </div>
+      </div>
+    </div>
+</div>
+</form>
+
+
+
+@section Scripts
+{
+  <script src="~/js/catClientes.js"></script>
+}

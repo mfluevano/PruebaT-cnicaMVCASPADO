@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="0.1.12-preview" />
+  <PropertyGroup>
+    <Name>DevLab</Name>
+    <ProjectGuid>{0692A7C9-C3DB-4059-A5D8-27C040123029}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+  </PropertyGroup>
+  <ItemGroup>
+    <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\160\SqlSchemas\msdb.dacpac" Condition="'$(NetCoreBuild)' != 'true'">
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>DevLab</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+    <ArtifactReference Include="$(SystemDacpacsLocation)\SystemDacpacs\160\msdb.dacpac" Condition="'$(NetCoreBuild)' == 'true'">
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>DevLab</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
+  </Target>
+</Project>

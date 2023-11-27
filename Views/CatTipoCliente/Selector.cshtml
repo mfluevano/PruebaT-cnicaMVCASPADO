@@ -1,0 +1,6 @@
+@model List<CatTipoCliente>
+
+@foreach(CatTipoCliente tc in Model)
+{
+    <option value="@tc.Id">@tc.TipoCliente</option>
+}

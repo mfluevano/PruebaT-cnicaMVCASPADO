@@ -1,0 +1,78 @@
+@{
+  ViewData["TItle"] = "Catalogo Productos";
+}
+@model CatProducto
+<input type="hidden" value="CatProducto" id="catalogo"/>
+
+<div class="row justify-content-center">
+  <div  class="col-10">
+    <div class="alert alert-info" rol="alert">
+      Productos 
+    </div>
+  
+    <button type="button" class="btn btn-success  btn-sm" data-toggle="modal" data-target="#modalProducto" id="btnNuevo">Nuevo
+      Producto</button>
+    <table class="table table-bordered" id="tblCatProducto">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Imagen</th>
+          <th>Precio</th>
+          <th>ext</th>
+          <th colspan="2">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+    </table>
+  </div>
+</div>
+
+<form enctype="multipart/form-data" method="post"  class="row g-3" >
+  <div class="modal fade" id="modalProducto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nuevo Productoº</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label asp-for="NombreProducto" class="form-label"></label>
+            <input asp-for="NombreProducto" class="form-control" />
+            <span asp-validation-for="NombreProducto" class="text-danger"></span>
+          </div>
+          <div class="form-group custom-file">
+            <label asp-for="ImagenProducto" class="form-label"></label>
+            <input type="hidden" asp-for="ImagenProducto" class="form-control" />
+            <input type="file" class="custom-file-input" id="Imagen">
+            <img id="prev" src="~/img/default.svg" class="rounded float-left" alt="...">
+          </div>
+          <div class="form-group">
+            <label asp-for="PrecioUnitario" class="form-label"></label>
+            <input asp-for="PrecioUnitario" class="form-control" />
+            <span asp-validation-for="PrecioUnitario" class="text-danger"></span>
+          </div>
+
+          <div class="form-group">  
+            <label asp-for="Ext" class="form-label"></label>
+            <input asp-for="Ext" class="form-control" />
+            <span asp-validation-for="Ext" class="text-danger"></span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="btnAgregar">Guardar</button>
+        </div>
+      </div>
+    </div>
+</div>
+</form>
+@section Scripts
+{
+  
+  <script src="~/js/catProducto.js"></script>
+
+}

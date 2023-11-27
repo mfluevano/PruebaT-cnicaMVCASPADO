@@ -1,0 +1,29 @@
+"--------------------------------------------------------------------------------" 
+"Ejecutando scripts de procedimientos almacenados" 
+"--------------------------------------------------------------------------------" 
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoProductos\SP_CrearProducto.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoProductos\SP_EditarProducto.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoProductos\SP_EliminarProducto.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoProductos\SP_ListarProductos.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogotClientes\SP_CrearCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogotClientes\SP_EditarCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogotClientes\SP_EliminarCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogotClientes\SP_ListarClientes.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoTipoCliente\SP_CrearTipoCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoTipoCliente\SP_EditarTipoCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoTipoCliente\SP_EliminarTipoCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoTipoCliente\SP_ListarTiposClientes.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\Facturacion\sp_GenerarFactura.sql"
+Changed database context to 'LabDev'.

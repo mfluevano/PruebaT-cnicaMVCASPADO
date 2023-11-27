@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-md-6">
+    <label for="rdbNumeroFactura">Número de factura</label>
+    <input type="radio" name="rdbTipoBusqueda" id="rdbNumeroFactura" value="numeroFactura" />
+  </div>
+  <div class="col-md-6">
+    <label for="rdbCliente">Cliente</label>
+    <input type="radio" name="rdbTipoBusqueda" id="rdbCliente" value="cliente" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    {{#if tipoBusqueda == 'numeroFactura'}}
+      <label for="txtNumeroFactura">Número de factura</label>
+      <input type="text" class="form-control" id="txtNumeroFactura" />
+    {{/if}}
+    {{#if tipoBusqueda == 'cliente'}}
+      <label for="cmbCliente">Cliente</label>
+      <select class="form-control" id="cmbCliente">
+        <option value="">Seleccionar</option>
+        <option value="1">Cliente 1</option>
+        <option value="2">Cliente 2</option>
+        <option value="3">Cliente 3</option>
+      </select>
+    {{/if}}
+  </div>
+</div>
+<button type="submit" class="btn btn-primary">Buscar</button>
