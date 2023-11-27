@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ep6WQjXjZIjAt7PzYBMtSrCfkmNz0KAFlMzvijx7UR9huaa6QcKA4qExkZWdgkupN7tghbfKJyoKr4n9cLJbQg==",
+  "dgSpecHash": "iSKNs+ih+gl08RJ8xmpLfqQJSkz+dtrCJQ/XZpjexd9I61kkFLzNEfDZCirkLV+Iqr4Hlp983Z8UJlO/NlR25g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj",
+  "projectFilePath": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mluev\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\mluev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

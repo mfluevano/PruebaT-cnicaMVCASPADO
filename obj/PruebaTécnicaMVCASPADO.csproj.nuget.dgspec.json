@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj": {}
+    "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj": {
+    "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj",
+        "projectUniqueName": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj",
         "projectName": "PruebaTécnicaMVCASPADO",
-        "projectPath": "c:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj",
+        "projectPath": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\PruebaTécnicaMVCASPADO.csproj",
         "packagesPath": "C:\\Users\\mluev\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\obj\\",
+        "outputPath": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mluev\\AppData\\Roaming\\NuGet\\NuGet.Config",
