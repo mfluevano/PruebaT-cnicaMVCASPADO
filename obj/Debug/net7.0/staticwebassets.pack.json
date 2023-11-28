@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\default.svg"
     },
     {
+      "Id": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\wwwroot\\js\\buscarFactura.js",
+      "PackagePath": "staticwebassets\\js\\buscarFactura.js"
+    },
+    {
       "Id": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\wwwroot\\js\\catClientes.js",
       "PackagePath": "staticwebassets\\js\\catClientes.js"
     },

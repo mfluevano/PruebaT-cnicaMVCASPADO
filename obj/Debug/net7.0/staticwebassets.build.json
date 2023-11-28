@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9tJrvQDkTa7UIauIpGM0+z+QWho0uPFpPelTOr/dtcM=",
+  "Hash": "0Vtu+n65IH01ZFPtgTz9nyCiO61Dzy6sPgt+hh4Wgy4=",
   "Source": "PruebaTécnicaMVCASPADO",
   "BasePath": "_content/PruebaTécnicaMVCASPADO",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\default.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\wwwroot\\js\\buscarFactura.js",
+      "SourceId": "PruebaTécnicaMVCASPADO",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\wwwroot\\",
+      "BasePath": "_content/PruebaTécnicaMVCASPADO",
+      "RelativePath": "js/buscarFactura.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\buscarFactura.js"
     },
     {
       "Identity": "C:\\Users\\mluev\\source\\repos\\PruebaTécnicaMVCASPADO\\wwwroot\\js\\catClientes.js",
