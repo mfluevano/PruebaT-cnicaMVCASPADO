@@ -57,7 +57,7 @@ $(document).ready(function () {
         method: "GET",
         success: function (response) {
           if (response !== null && response.length > 0) {
-            MostrarResultadoFactura(response);  
+            MostrarResultadoFacturas(response);  
           } else {
             alert("No se encontró ninguna factura para el cliente seleccionado.");
           }
@@ -72,7 +72,7 @@ $(document).ready(function () {
     }
   }
 
-  function MostrarResultadoFactura(facturas) {
+  function MostrarResultadoFacturas(facturas) {
     var html="";
     console.table(facturas)
     $.each(facturas,factura => {
@@ -86,19 +86,15 @@ $(document).ready(function () {
     $("#tablaFacturas tbody").html(html);
   }
 
-  function MostrarResultadoFacturas(facturas) {
+  function MostrarResultadoFactura(factura) {
     var html = "";
-
-    for (var i = 0; i < facturas.length; i++) {
-      var factura = facturas[i];
-
       html += "<tr>";
       html += "<td>" + factura.numeroFactura + "</td>";
       html += "<td>" + factura.fechaEmisionFactura + "</td>";
       html += "<td>" + factura.subTotalFactura + "</td>";
       html += "</tr>";
-    }
+    
 
-    $("#tablaFacturas").html(html);
+    $("#tablaFacturas tbody").html(html);
   }
 });
