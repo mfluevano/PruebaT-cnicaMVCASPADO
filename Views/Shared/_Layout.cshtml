@@ -33,7 +33,7 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facturas</a>
                             <div class="dropdown-menu">
                                 <a asp-controller="Facturacion" asp-action="Index" class="dropdown-item">Crear</a>
-                                <a asp-controller="Facturacion" asp-action="Index" class="dropdown-item">Buscar</a>
+                                <a asp-controller="Facturacion" asp-action="BuscarFactura" class="dropdown-item">Buscar</a>
                             </div>
                         </div>
                     </div>
@@ -60,3 +60,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+ 
