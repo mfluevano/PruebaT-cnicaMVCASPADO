@@ -18,14 +18,24 @@
         <label class="col-form-label" for="txtNumeroFactura">Número de factura</label>
         <input type="text" class="form-control" id="txtNumeroFactura" />
       </div>
-      <div class="col input-group" id="selectorCliente">
+      <div class="col input-group"  id="selectorCliente">
 
         
       </div>
       <div class="col input-group">
 
-        <button type="submit" class="btn btn-primary">Buscar</button>
+        <button type="button" class="btn btn-primary" id="btnBuscar">Buscar</button>
       </div>
+    </div>
+    <div class="row">
+      <table id="tablaFacturas" class="table table-bordered table-dark">
+        <thead>
+          <td>Numero Factura</td>
+          <td>Fecha de Emision</td>
+          <td>Total</td>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
   </div>
   @section Scripts

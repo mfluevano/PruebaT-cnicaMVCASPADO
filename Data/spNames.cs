@@ -35,9 +35,8 @@ namespace PruebaTécnicaMVCASPADO.Data
         internal static string _CrearFactura="SP_GenerarFactura";
         internal static string _ListarFacturas="SP_GenerarFactura";
         internal static string _BuscarFactura="SP_EliminarCliente";
-
-
-
+        internal static string _BuscarFacturaPorCliente="SP_BuscarFacturaPorCliente";
+        internal static string _BuscarFacturaPorNumeroFactura="SP_BuscarFacturaPorNumeroFactura";
     }
 }
 

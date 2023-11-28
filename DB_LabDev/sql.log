@@ -25,5 +25,9 @@ Changed database context to 'LabDev'.
 Changed database context to 'LabDev'.
 "Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\CatalogoTipoCliente\SP_ListarTiposClientes.sql"
 Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\Facturacion\SP_BuscarFacturaPorCliente.sql"
+Changed database context to 'LabDev'.
+"Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\Facturacion\SP_BuscarFacturaPorNumeroFactura.sql"
+Changed database context to 'LabDev'.
 "Script C:\Users\mluev\source\repos\PruebaT‚cnicaMVCASPADO\DB_LabDev\procedimientos\Facturacion\sp_GenerarFactura.sql"
 Changed database context to 'LabDev'.
