@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PruebaTécnicaMVCASPADO
 build_property.RootNamespace = PruebaTécnicaMVCASPADO
-build_property.ProjectDir = C:\Users\mluev\source\repos\PruebaTécnicaMVCASPADO\
+build_property.ProjectDir = C:\Users\mluev\source\repos\test\PruebaT-cnicaMVCASPADO\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mluev\source\repos\PruebaTécnicaMVCASPADO
+build_property.MSBuildProjectDirectory = C:\Users\mluev\source\repos\test\PruebaT-cnicaMVCASPADO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/CatProducto/Index.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/CatProducto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/CatProducto/Selector.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/CatProducto/Selector.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9cU2VsZWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/CatTipoCliente/Index.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/CatTipoCliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0VGlwb0NsaWVudGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/CatTipoCliente/Selector.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/CatTipoCliente/Selector.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0VGlwb0NsaWVudGVcU2VsZWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Cliente/Index.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Cliente/Selector.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Cliente/Selector.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxTZWxlY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Facturacion/BuscarFactura.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Facturacion/BuscarFactura.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cQnVzY2FyRmFjdHVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Facturacion/Index.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Facturacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYWNpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Home/Index.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Home/Privacy.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Shared/Error.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/_ViewImports.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/_ViewStart.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mluev/source/repos/PruebaTécnicaMVCASPADO/Views/Shared/_Layout.cshtml]
+[C:/Users/mluev/source/repos/test/PruebaT-cnicaMVCASPADO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o1u4m4hqv7
