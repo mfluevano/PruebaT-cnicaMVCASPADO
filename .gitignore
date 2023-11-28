@@ -272,9 +272,6 @@ __pycache__/
 # tools/
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore
-<<<<<<< HEAD
-obj/Debug/net7.0/project.razor.vscode.bin
-=======
 bin/Debug/net7.0/PruebaTécnicaMVCASPADO.staticwebassets.runtime.json
 obj/Debug/net7.0/project.razor.vscode.bin
 obj/Debug/net7.0/PruebaTécnicaMVCASPADO.genruntimeconfig.cache
@@ -282,4 +279,4 @@ obj/Debug/net7.0/staticwebassets.build.json
 obj/Debug/net7.0/staticwebassets.development.json
 obj/Debug/net7.0/staticwebassets.pack.json
 bin/Debug/net7.0/PruebaTécnicaMVCASPADO.staticwebassets.runtime.json
->>>>>>> main
+bin/Debug/net7.0/PruebaTécnicaMVCASPADO.dll

@@ -9,7 +9,7 @@ using PruebaTécnicaMVCASPADO.Data;
 
 namespace PruebaTécnicaMVCASPADO.Services.Implementaciones
 {
-    public class tblFacturacionImplementacion : ICatalogosServiceFac<TblFacturas>
+    public class tblFacturacionImplementacion : ICatalogosService<TblFacturas>
     {
         private readonly string _conexionStr;
 
@@ -103,76 +103,5 @@ namespace PruebaTécnicaMVCASPADO.Services.Implementaciones
 
             return _lista;
         }
-
-        public async Task<List<TblFacturas>> BuscarFacturaPorCliente(int idCliente)
-{
-    List<TblFacturas> _lista = new List<TblFacturas>();
-
-    using (SqlConnection con = new(_conexionStr))
-    {
-        con.Open();
-        SqlCommand command = new SqlCommand(SpNames._BuscarFacturaPorCliente, con);
-        command.CommandType = CommandType.StoredProcedure;
-
-        command.Parameters.AddWithValue("@idCliente", idCliente);
-
-        using (var dr = await command.ExecuteReaderAsync())
-        {
-            while (await dr.ReadAsync())
-            {
-                _lista.Add(
-                    new TblFacturas
-                    {
-                        Id = (int)dr[0],
-                        FechaEmisionFactura = dr[1].ToString()!,
-                        IdCliente = (int)dr[2],
-                        NumeroFactura = (int)dr[3],
-                        NumeroTotalArticulos = (int)dr[4],
-                        SubTotalFactura = (decimal)dr[5],
-                        TotalImpuesto = (decimal)dr[6],
-                        TotalFactura = (decimal)dr[7]
-                    }
-                );
-            }
-        }
-    }
-
-    return _lista;
-}
-
-public async Task<TblFacturas> BuscarFacturaPorNumeroFactura(int numeroFactura)
-{
-    TblFacturas factura = null;
-
-    using (SqlConnection con = new(_conexionStr))
-    {
-        con.Open();
-        SqlCommand command = new SqlCommand(SpNames._BuscarFacturaPorNumeroFactura, con);
-        command.CommandType = CommandType.StoredProcedure;
-
-        command.Parameters.AddWithValue("@numeroFactura", numeroFactura);
-
-        using (var dr = await command.ExecuteReaderAsync())
-        {
-            if (await dr.ReadAsync())
-            {
-                factura = new TblFacturas
-                {
-                    Id = (int)dr[0],
-                    FechaEmisionFactura = dr[1].ToString()!,
-                    IdCliente = (int)dr[2],
-                    NumeroFactura = (int)dr[3],
-                    NumeroTotalArticulos = (int)dr[4],
-                    SubTotalFactura = (decimal)dr[5],
-                    TotalImpuesto = (decimal)dr[6],
-                    TotalFactura = (decimal)dr[7]
-                };
-            }
-        }
-    }
-
-    return factura;
-}
-
     }
 }

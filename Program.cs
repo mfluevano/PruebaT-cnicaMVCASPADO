@@ -14,7 +14,7 @@
     builder.Services.AddScoped<ICatalogosService<CatProducto>, catProductosImplementacion>();
     builder.Services.AddScoped<ICatalogosService<CatTipoCliente>, catTipoClienteImplementacion>();
     builder.Services.AddScoped<ICatalogosService<TblClientes>, catClientesImplementacion>();
-    builder.Services.AddScoped<ICatalogosServiceFac<TblFacturas>, tblFacturacionImplementacion>();
+    builder.Services.AddScoped<ICatalogosService<TblFacturas>, tblFacturacionImplementacion>();
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
