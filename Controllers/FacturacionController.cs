@@ -6,9 +6,9 @@ namespace PruebaTécnicaMVCASPADO.Controllers;
 
 public class FacturacionController : Controller
 {
-    private readonly ICatalogosService<TblFacturas> _facturacionService;
+    private readonly ICatalogosServiceFac<TblFacturas> _facturacionService;
 
-    public FacturacionController(ICatalogosService<TblFacturas> facturacionService)
+    public FacturacionController(ICatalogosServiceFac<TblFacturas> facturacionService)
     {
         _facturacionService = facturacionService;
     }
@@ -42,5 +42,52 @@ public class FacturacionController : Controller
         {
             return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
         }
+
     }
+    // Buscar factura por número de factur|a
+[HttpGet]
+public async Task<IActionResult> BuscarFacturaPorNumeroFactura(int numeroFactura)
+{
+  try
+  {
+    TblFacturas factura = await _facturacionService.BuscarFacturaPorNumeroFactura(numeroFactura);
+
+    if (factura != null)
+    {
+      return Ok(factura);
+    }
+    else
+    {
+      return NotFound();
+    }
+  }
+  catch (Exception ex)
+  {
+    return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+  }
+}
+
+// Buscar factura por cliente
+[HttpGet]
+public async Task<IActionResult> BuscarFacturaPorCliente(int idCliente)
+{
+  try
+  {
+    List<TblFacturas> facturas = await _facturacionService.BuscarFacturaPorCliente(idCliente);
+
+    if (facturas != null && facturas.Count > 0)
+    {
+      return Ok(facturas);
+    }
+    else
+    {
+      return NotFound();
+    }
+  }
+  catch (Exception ex)
+  {
+    return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+  }
+}
+
 }
